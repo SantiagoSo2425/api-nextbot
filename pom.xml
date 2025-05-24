@@ -73,6 +73,13 @@
             <version>${langchain4j.version}</version>
         </dependency>
 
+        <!-- Google Vertex AI para Gemini API -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-vertexai</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+
         <!-- Base de Datos -->
         <dependency>
             <groupId>com.h2database</groupId>
