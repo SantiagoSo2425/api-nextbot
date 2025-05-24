@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=mi_basedatos
+      - MYSQL_ROOT_PASSWORD=1234
+    ports:
+      - '3309:3306'
+    volumes:
+      - C:/Users/santi/Downloads/base.sql:/docker-entrypoint-initdb.d/base.sql
